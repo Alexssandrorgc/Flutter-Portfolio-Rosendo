@@ -9,6 +9,11 @@ Feel free to connect with me on *pending*!
 
 Here is a breakdown of my work, organized chronologically. Each project represents a new challenge and a new set of skills acquired.
 
+### [05 - Maquetación con Row y Column](./05-flutter-row-column-layout/)
+Una práctica fundamental para entender la construcción de layouts anidados en Flutter y el control de la alineación de widgets con `CrossAxisAlignment`.
+
+* **Habilidades Demostradas**: **Maquetación (Layouts)**, `Row`, `Column`, `CrossAxisAlignment`, `Container`, `CircleAvatar`.
+
 ### [04 - Stateful Counter with History](./04-stateful-counter-history/)
 An enhanced counter application that demonstrates more complex state management and conditional UI rendering.
 

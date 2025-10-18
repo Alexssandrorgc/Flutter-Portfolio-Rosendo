@@ -9,6 +9,11 @@ Feel free to connect with me on *pending*!
 
 Here is a breakdown of my work, organized chronologically. Each project represents a new challenge and a new set of skills acquired.
 
+### [06 - Diseño de Dashboard Responsivo](./06-responsive-dashboard-layout/)
+Un proyecto práctico que demuestra la construcción de un layout complejo y flexible, utilizando `Expanded` para distribuir el espacio y `Padding` para un diseño limpio.
+
+* **Habilidades Demostradas**: **`Expanded` y Layouts Flexibles**, Diseño de UI, `Padding`, `SizedBox`, Maquetación Anidada.
+
 ### [05 - Maquetación con Row y Column](./05-flutter-row-column-layout/)
 Una práctica fundamental para entender la construcción de layouts anidados en Flutter y el control de la alineación de widgets con `CrossAxisAlignment`.
 

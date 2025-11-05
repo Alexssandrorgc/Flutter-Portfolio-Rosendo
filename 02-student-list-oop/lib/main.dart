@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<String> lista=["Ale", "Alexby", "Alex"];
   Student student = Student(name: "Alex", enrollment: "20223TN017");
 
-  TextEditingController _txtNameCtrl =  TextEditingController();
+  final TextEditingController _txtNameCtrl =  TextEditingController();
 
   void _incrementCounter() {
     setState(() {
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
         SizedBox(height: 14),
         Text("Student List: "),
         SizedBox(height: 10,),
-        ...lista.map((n) => Text("- $n")).toList(),
+        ...lista.map((n) => Text("- $n")),
       ],
     );
   }

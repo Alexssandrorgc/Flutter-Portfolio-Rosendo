@@ -1,3 +1,4 @@
+import 'register_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'validators.dart';
@@ -104,6 +105,14 @@ class _LoginPageState extends State<LoginPage> {
                           )
                         : const Text('Entrar'),
                   ),
+                ),
+                TextButton(
+                  onPressed: _loading ? null : () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const RegisterPage()),
+                    );
+                  },
+                  child: const Text('¿No tienes cuenta? Regístrate'),
                 ),
                 TextButton(
                   onPressed: _loading ? null : _resetPassword,

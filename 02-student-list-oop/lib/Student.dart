@@ -1,4 +1,3 @@
-import 'package:flutter/rendering.dart';
 import 'package:flutter_application_1/Person.dart';
 
 class Student extends Person {
